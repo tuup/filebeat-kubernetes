@@ -2,7 +2,7 @@ FROM ubuntu
 
 MAINTAINER Amanpreet Singh <aps.sids@gmail.com>
 
-ENV FILEBEAT_VERSION 5.3.2
+ENV FILEBEAT_VERSION "6.0.0-beta2"
 
 RUN apt-get update && \
     apt-get -y install wget && \
